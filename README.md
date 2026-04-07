@@ -5,6 +5,7 @@
 # Group Members:
 * [Jimmy Padilla](mailto:jpj22002@uconn.edu)
 * [My Nguyen](mailto:my.nguyen@uconn.edu)
+* [Jay Yang](mailto:jay.yang@uconn.edu)
 * [Eric Dillner](mailto:eric.dillner@uconn.edu)
 * [Brice Liew](mailto:brice.liew@uconn.edu)
 
