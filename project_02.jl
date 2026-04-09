@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.21
+# v0.20.23
 
 using Markdown
 using InteractiveUtils
@@ -467,7 +467,7 @@ function format_velocity_text(label, velocity_x, velocity_y)
 end
 
 # ╔═╡ 7b7c175a-9e9d-4096-9795-89be14e390d3
-function animate_double_slider(positions, velocities, parameter_values; title_name="Double Slider Crank", filename=nothing, fps=30)
+function animate_double_slider(positions, parameter_values; title_name="Double Slider Crank", filename=nothing, fps=30)
     coupler_length, _, xc, yc, a1, a2, _ = parameter_values
     direction1 = (cos(a1), sin(a1))
     direction2 = (cos(a2), sin(a2))
@@ -4020,8 +4020,6 @@ version = "1.13.0+0"
 # ╟─54677311-0e83-491b-a34b-26e2bf8a6e69
 # ╟─79506113-f921-44e8-b948-f2d2fb597c14
 # ╟─4553ddb1-9415-4617-8002-87f1c49917c3
-# ╠═4bd9bace-f235-40f4-91ef-0d514be92184
-# ╠═a15216d2-5eec-4c1c-bc2d-5fde0451f430
 # ╠═7b7c175a-9e9d-4096-9795-89be14e390d3
 # ╟─e75c61bc-36ac-4d42-aa91-4c80ce5a3d47
 # ╟─96a1dcb1-2566-4945-9272-be330949011f
